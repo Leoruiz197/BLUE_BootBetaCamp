@@ -17,49 +17,66 @@ body {
 }
 
 .a {
+  text-decoration: none;
 }
 
 a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #0460d9;
 }
 
 .a:visited {
 }
 
-h1{
-    font-size: 10px;
+h1 {
+  font-size: 10px;
 }
 
 .btn {
-    -webkit-border-radius: 9px;
-    -moz-border-radius: 9px;
-    border-radius: 9px;
-    color: #EAE9F2;
-    font-family: Arial;
-    font-size: 25px;
-    font-weight: 100;
-    padding: 15px;
-    background-color: #3D94F6;
-    -webkit-box-shadow: inset 1px 1px 20px 4px #000000;
-    -moz-box-shadow: inset 1px 1px 20px 4px #000000;
-    box-shadow: inset 1px 1px 20px 4px #000000;
-    text-shadow: 0 0 10px #000000;
-    border: inset #337FED 1px;
-    text-decoration: none;
-    display: inline-block;
-    cursor: pointer;
-    text-align: center;
- }
- 
- .btn:hover {
-    border: inset #368DD9 1px;
-    background: #0055C3;
-    background-image: -webkit-linear-gradient(top, #0055C3, #368DD9);
-    background-image: -moz-linear-gradient(top, #0055C3, #368DD9);
-    background-image: -ms-linear-gradient(top, #0055C3, #368DD9);
-    background-image: -o-linear-gradient(top, #0055C3, #368DD9);
-    background-image: -webkit-gradient(to bottom, #0055C3, #368DD9);
-    -webkit-border-radius: 9px;
-    -moz-border-radius: 9px;
-    border-radius: 9px;
-    text-decoration: none;
- }
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  border-radius: 9px;
+  color: #eae9f2;
+  font-family: Arial;
+  font-size: 25px;
+  font-weight: 100;
+  padding: 15px;
+  background-color: #3d94f6;
+  -webkit-box-shadow: inset 1px 1px 20px 4px #000000;
+  -moz-box-shadow: inset 1px 1px 20px 4px #000000;
+  box-shadow: inset 1px 1px 20px 4px #000000;
+  text-shadow: 0 0 10px #000000;
+  border: inset #337fed 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn:hover {
+  border: inset #368dd9 1px;
+  background: #0055c3;
+  background-image: -webkit-linear-gradient(top, #0055c3, #368dd9);
+  background-image: -moz-linear-gradient(top, #0055c3, #368dd9);
+  background-image: -ms-linear-gradient(top, #0055c3, #368dd9);
+  background-image: -o-linear-gradient(top, #0055c3, #368dd9);
+  background-image: -webkit-gradient(to bottom, #0055c3, #368dd9);
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  border-radius: 9px;
+  text-decoration: none;
+}
+
+header h1 {
+  font-family;: "Roboto";
+  font-size: 200%;
+  font-style: italic;
+}
+
+header img {
+  width: 100%;
+  height: 50%;
+}
