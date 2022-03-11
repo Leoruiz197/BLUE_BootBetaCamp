@@ -6,39 +6,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="img/png" href="/CSS/assets/image/icon-256x256.png">
     <link rel="stylesheet" href="./CSS/style.css">
+
     <title>App</title>
 </head>
 <body>
     <header>
-        <div></div>
-        <h1>Random Generator BETA</h1>
-        <h2>Desenvolvido por Mod2</h2>
-
-        <input type="text" id="texto1"><button class="btn" id="btn_1">Adicionar</button>
-        <input type="text" id="texto2"><button class="btn" id="btn_2">Adicionar</button>
-        <input type="text" id="texto3"><button class="btn" id="btn_3">Adicionar</button>
+        <div class="container">
+            <div class="item">
+                <h1>Random Generator BETA</h1>
+                <h2>Desenvolvido por Mod2</h2>
+            </div>
+        </div>
+        <div class="container">
+            <div class="item">
+                <input type="text"  id="texto1"><button class="btn" id="btn_1">Add</button>
+            </div>
+            <div class="item">
+                <input type="text"  id="texto2"><button class="btn" id="btn_2">Add</button>
+            </div>
+            <div class="item">
+                <input type="text"  id="texto3"><button class="btn" id="btn_3">Add</button>
+            </div>
+        </div>
     </header>
     <main>
-        <div class="item">
-            <button id="btn_lis1" class="btn_clean">Limpar lista</button>
-            <ul id="lista1">
+        <div class="container">
+            <div class="item">
+                <button id="btn_lis1" class="btn_clean">Limpar lista</button>
+                <ul id="lista1">
 
-            </ul>
+                </ul>
+            </div>
+            <div class="item">
+                <button id="btn_lis2" class="btn_clean">Limpar lista</button>
+                <ul id="lista2">
+                    
+                </ul>
+            </div>
+            <div class="item">
+                <button id="btn_lis3" class="btn_clean">Limpar lista</button>
+                <ul id="lista3">
+                    
+                </ul>
+            </div>
         </div>
-        <div class="item">
-            <button id="btn_lis2" class="btn_clean">Limpar lista</button>
-            <ul id="lista2">
-                
-            </ul>
-        </div>
-        <div class="item">
-            <button id="btn_lis3" class="btn_clean">Limpar lista</button>
-            <ul id="lista3">
-                
-            </ul>
-        </div>
-        <div>
-            <button id="btn_generate" class="btn">Generate</button>
+        <div class="container">
+            <div>
+                <button id="btn_generate" class="btn">Generate</button>
+            </div>
         </div>
     </main>
     <footer>
