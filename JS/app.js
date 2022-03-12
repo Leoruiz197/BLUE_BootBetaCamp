@@ -14,6 +14,12 @@ btn_1_add.addEventListener("click", function(){
 
     li.appendChild(taskText);
 
+    const span = document.createElement("span"); // Cria um elemento span
+    const icon = document.createTextNode("\u00D7"); // Adiciona um texto no HTML que é o código do icone X, porém em formato para JS
+    span.className = "close"; // Adiciona a classe close a essa span
+    span.appendChild(icon); // Insere o icon na span
+    li.appendChild(span); // Insere a span na li criada
+    
     if (inputValue === "") {
         alert("Você deve digitar algum texto para adicionar!");
     } else {
@@ -29,6 +35,12 @@ btn_2_add.addEventListener("click", function(){
 
     li.appendChild(taskText);
 
+    const span = document.createElement("span"); // Cria um elemento span
+    const icon = document.createTextNode("\u00D7"); // Adiciona um texto no HTML que é o código do icone X, porém em formato para JS
+    span.className = "close"; // Adiciona a classe close a essa span
+    span.appendChild(icon); // Insere o icon na span
+    li.appendChild(span); // Insere a span na li criada
+
     if (inputValue === "") {
         alert("Você deve digitar algum texto para adicionar!");
     } else {
@@ -43,6 +55,12 @@ btn_3_add.addEventListener("click", function(){
     document.querySelector("#texto3").value = "";
 
     li.appendChild(taskText);
+
+    const span = document.createElement("span"); // Cria um elemento span
+    const icon = document.createTextNode("\u00D7"); // Adiciona um texto no HTML que é o código do icone X, porém em formato para JS
+    span.className = "close"; // Adiciona a classe close a essa span
+    span.appendChild(icon); // Insere o icon na span
+    li.appendChild(span); // Insere a span na li criada
 
     if (inputValue === "") {
         alert("Você deve digitar algum texto para adicionar!");
